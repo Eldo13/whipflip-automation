@@ -56,13 +56,13 @@ export default defineConfig({
       },
     },
 
-    {
-      name: 'Pixel',
-      use: {
-        ...devices['Pixel 7 landscape'],
-        permissions: ['camera'],
-      },
-    },
+    // {
+    //   name: 'Pixel',
+    //   use: {
+    //     ...devices['Pixel 7 landscape'],
+    //     permissions: ['camera'],
+    //   },
+    // },
 
     // {
     //   name: 'iPhone16', //iPhone 16 Pro Max
