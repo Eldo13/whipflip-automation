@@ -19,6 +19,7 @@ test.describe('Whipflip Basic Flow', () => {
     await vehiclePage.wait();
 
     await vehiclePage.selectVehicleDetails();
+    
     await offerPage.fillInitialDetails(testData);
     await confirmPage.fillConfirmation(testData.vin);
     await sellPage.schedulePickup(testData);
